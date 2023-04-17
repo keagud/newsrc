@@ -1,7 +1,0 @@
-newsrc.py
-setup.py
-newsrc.egg-info/PKG-INFO
-newsrc.egg-info/SOURCES.txt
-newsrc.egg-info/dependency_links.txt
-newsrc.egg-info/entry_points.txt
-newsrc.egg-info/top_level.txt
