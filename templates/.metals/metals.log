@@ -1,0 +1,72 @@
+2023.04.17 12:10:10 INFO  Started: Metals version 0.11.11 in workspace '/home/k/Code/newsrc/templates' for client Neovim 0.9.0.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/k/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.17 12:10:11 INFO  time: initialize in 0.59s[0m
+2023.04.17 12:10:14 WARN  Build server is not auto-connectable.[0m
+2023.04.17 12:10:14 WARN  no build tool detected in workspace '/home/k/Code/newsrc/templates'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.04.17 12:10:14 WARN  no build target for: /home/k/Code/newsrc/templates/template.scala[0m
+2023.04.17 12:10:16 INFO  no build target found for /home/k/Code/newsrc/templates/template.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.04.17 12:10:27 WARN  no build target for: /home/k/Code/newsrc/templates/template.scala[0m
+2023.04.17 12:10:41 WARN  no build target for: /home/k/Code/newsrc/templates/template.scala[0m
+2023.04.17 12:10:42 WARN  no build target for: /home/k/Code/newsrc/templates/template.scala[0m
+2023.04.17 12:11:00 WARN  no build target for: /home/k/Code/newsrc/templates/template.scala[0m
+2023.04.17 12:11:08 WARN  no build target for: /home/k/Code/newsrc/templates/template.scala[0m
+2023.04.17 12:11:14 WARN  no build target for: /home/k/Code/Scala/guess.scala[0m
+Apr 17, 2023 12:11:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 155
+2023.04.17 12:11:23 WARN  no build target for: /home/k/Code/newsrc/templates/template.scala[0m
+2023.04.17 12:11:23 INFO  Shutting down server[0m
+2023.04.17 12:11:23 INFO  shutting down Metals[0m
+2023.04.17 12:13:11 INFO  Started: Metals version 0.11.11 in workspace '/home/k/Code/newsrc/templates' for client Neovim 0.9.0.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/k/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.17 12:13:11 INFO  time: initialize in 0.44s[0m
+2023.04.17 12:13:13 WARN  Build server is not auto-connectable.[0m
+2023.04.17 12:13:13 WARN  no build tool detected in workspace '/home/k/Code/newsrc/templates'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.04.17 12:13:13 WARN  no build target for: /home/k/Code/newsrc/templates/template.scala[0m
+Apr 17, 2023 12:13:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3
+Apr 17, 2023 12:13:13 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2023.04.17 12:13:15 INFO  no build target found for /home/k/Code/newsrc/templates/template.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.04.17 12:13:20 WARN  no build target for: /home/k/Code/newsrc/templates/template.scala[0m
+2023.04.17 12:13:20 INFO  Shutting down server[0m
+2023.04.17 12:13:20 INFO  shutting down Metals[0m
+java.util.concurrent.RejectedExecutionException: Task Future(<not completed>) rejected from java.util.concurrent.ThreadPoolExecutor@5276d6ee[Shutting down, pool size = 31, active threads = 2, queued tasks = 0, completed tasks = 947]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2081)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:841)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1376)
+	at scala.concurrent.impl.ExecutionContextImpl.execute(ExecutionContextImpl.scala:21)
+	at scala.concurrent.impl.Promise$Transformation.submitWithValue(Promise.scala:429)
+	at scala.concurrent.impl.Promise$DefaultPromise.submitWithValue(Promise.scala:338)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete0(Promise.scala:285)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:278)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$zipWith$3(Promise.scala:158)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$zipWith$3$adapted(Promise.scala:154)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:484)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1589)
+2023.04.17 12:13:58 INFO  Started: Metals version 0.11.11 in workspace '/home/k/Code/newsrc/templates' for client Neovim 0.9.0.[0m
+SLF4J: No SLF4J providers were found.
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See https://www.slf4j.org/codes.html#noProviders for further details.
+SLF4J: Class path contains SLF4J bindings targeting slf4j-api versions 1.7.x or earlier.
+SLF4J: Ignoring binding found at [jar:file:/home/k/.cache/coursier/v1/https/repo1.maven.org/maven2/com/outr/scribe-slf4j_2.13/3.11.0/scribe-slf4j_2.13-3.11.0.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See https://www.slf4j.org/codes.html#ignoredBindings for an explanation.
+2023.04.17 12:13:59 INFO  time: initialize in 0.48s[0m
+2023.04.17 12:14:00 WARN  Build server is not auto-connectable.[0m
+2023.04.17 12:14:00 WARN  no build tool detected in workspace '/home/k/Code/newsrc/templates'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+2023.04.17 12:14:00 WARN  no build target for: /home/k/Code/newsrc/templates/template.scala[0m
+2023.04.17 12:14:02 INFO  no build target found for /home/k/Code/newsrc/templates/template.scala. Using presentation compiler with project's scala-library version: 3.2.2[0m
+2023.04.17 12:14:11 WARN  no build target for: /home/k/Code/newsrc/templates/template.scala[0m
+2023.04.17 12:14:11 INFO  Shutting down server[0m
+2023.04.17 12:14:11 INFO  shutting down Metals[0m
