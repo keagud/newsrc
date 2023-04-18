@@ -14,7 +14,7 @@ from subprocess import run
 from pprint import pprint
 
 
-TEMPLATE_DIR: Final = Path("~/.local/templates/").expanduser()
+TEMPLATE_DIR: Final = Path("~/.local/templates/newsrc").expanduser()
 
 
 def main():

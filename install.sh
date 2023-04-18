@@ -8,7 +8,7 @@ $PIPENV install -r requirements.txt
 $VENV_TMP/bin/shiv -c newsrc $( cat requirements.txt ) -o ~/.local/bin/newsrc  .
 
 
-TEMPLATE_DIR="$HOME/.local/templates"
+TEMPLATE_DIR="$HOME/.local/templates/newsrc"
 
 if [[ ! -d  $TEMPLATE_DIR ]]; then
     mkdir -p $TEMPLATE_DIR
