@@ -2,6 +2,6 @@
 
 object {{ name.title()  }} {
 
-  def main(args: Array[String]) = {}
+  @main def main(args: String*) = {}
 
 }
