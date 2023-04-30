@@ -2,6 +2,7 @@ import java.io.*;
 
 /** 
  *<h1> {{ name.title() }} </h1>
+ * @author {{ username }}
  * @since {{ date.isoformat() }} 
  */
 
